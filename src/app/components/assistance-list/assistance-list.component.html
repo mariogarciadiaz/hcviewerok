@@ -1,0 +1,10 @@
+<p>assistance-list works!</p>
+<ul>
+  <li *ngFor="let asistencia of listaAsistencias">
+    <p>Datos de asistencia: {{ asistencia.nombre }} </p>
+    <button type="button"
+            (click)="navigateToDetail(asistencia.id)">
+      <p>abrir {{ asistencia.id }}</p>
+    </button>
+  </li>
+</ul>

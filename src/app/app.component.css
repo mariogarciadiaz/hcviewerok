@@ -1,0 +1,15 @@
+#div_1{
+  display: flex;
+}
+#div_2{
+  flex:1;
+  padding: 10px;
+}
+#div_3{
+  flex:2;
+  padding: 10px;
+}
+
+
+
+
